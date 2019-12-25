@@ -1,0 +1,67 @@
+.box{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.box div{
+    border-radius: 50%;
+}
+
+.ring1{
+
+    width: 140px;
+    height:140px;
+    border: 1px solid red;
+    border-top:red;
+    border-left:red;
+    animation: ring1 1s infinite ease-in-out; 
+}
+
+/* .ring2{
+    
+    width:120px;
+    height:120px;
+    border: 1px solid black;
+    border-left :green;
+    border-top:green;
+    animation: ring2 1s infinite ease-in-out;
+
+}
+
+.ring3{
+    width: 80px;
+    height:80px;
+    border: 1px solid blue;
+    border-top:blue;
+    border-left:blue;
+    animation: ring3 1s infinite ease-in-out;
+} */
+
+@keyframes ring1{
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+/* @keyframes ring2{
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes ring3{
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(720deg)
+    }
+} */
